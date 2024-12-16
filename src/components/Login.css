@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set the main background color to yellow */
+    color: #333; /* Default text color */
+  }
+  
+  /* Login Page Styles */
+  .login-page {
+    
+    margin: 0 auto;
+    padding: 20px;
+    
+    min-height: 100vh;
+  }
+  
+  
+  .login-page-header h1 {
+    font-size: 2.5rem;
+    font-family: 'Anton';
+    margin-right: 1300px;
+    padding-top: 40px;
+    
+
+  }
+  
+  .login-page h2 {
+    text-align: center;
+    color: gold; /* White text for headings */
+    margin-top: 20px;
+    font-style: italic;
+    font-family: 'Anton';
+    font-size: 3.5rem;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+    
+    
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 100%;
+    margin: 50px auto; /* Center the form horizontally */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adjust blur level */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border-radius: 20px; /* Optional: rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:white;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+  }
+  
+  input:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 5px yellow;
+  }
+  
+  /* Button Styles */
+  .login-btn {
+    background-color: yellow; /* Button background color */
+    color: black; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    width: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ffcc00; /* Darker shade of yellow */
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  
+    input {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .create-account-text {
+    margin-top: 80px;
+    text-align: center;
+    margin-left:50px;
+    color:white;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .create-account-btn {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid yellow;
+    padding: 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .create-account-btn:hover {
+    background-color: #ffcc00;
+    color: white;
+  }
+  

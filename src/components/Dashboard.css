@@ -1,0 +1,85 @@
+/* General styling for the dashboard page */
+.dashboard-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header styles */
+.dashboard-header {
+  margin-right: 1250px;
+  padding-top: 100px;
+  font-family: 'Anton';
+  font-size: 2.5rem;
+}
+
+.dashboard-title {
+  font-size: 37px;
+  color: yellow;
+  margin: 0;
+}
+.dashboard-content h2{
+  color: yellow;
+  font-size: 3.2rem;
+  font-family: 'Anton';
+  font-style: italic;
+  text-decoration: underline;
+  transform: scaleX(1.4);
+
+}
+
+/* Main content styling */
+.dashboard-content {
+  max-width: 600px;
+  margin: 1;
+  margin-bottom: 250px;
+  
+}
+
+/* Navigation styles */
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 70px; /* Add space between links */
+  margin-top: 20px;
+}
+
+.dashboard-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ffd700; /* Yellow background */
+  color: #333; /* Dark text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+  background-color: #e6c200; /* Slightly darker yellow on hover */
+}
+
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    nav .btn {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+  

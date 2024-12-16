@@ -1,0 +1,16 @@
+/* Global styles for the application */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eef2f7; /* Soft background for a calm look */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/landingpage.png');
+  align-items: center;
+  justify-content: flex-start; /* Adjust to start for scrolling */
+  height: 100vh; /* Ensures proper height for larger content */
+  
+}
+
+

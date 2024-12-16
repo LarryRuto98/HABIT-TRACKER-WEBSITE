@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "testuser",
+      "password": "password123"
+    },
+    {
+      "id": "6ba7",
+      "username": "jjjjj",
+      "password": "KKKKK",
+      "email": "larryruto@gmail.com"
+    },
+    {
+      "id": "8876",
+      "username": "mzee",
+      "password": "1234",
+      "email": "larryruto@gmail.com"
+    },
+    {
+      "id": "c4bb",
+      "email": "larryruto@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "5026",
+      "email": "larryruto@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "82a0",
+      "email": "larryruto@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "d1f4",
+      "email": "larryruto@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "e1a2",
+      "email": "larryruto@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "7ce3",
+      "email": "larryruto@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "f921",
+      "email": "larryruto@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "4e16",
+      "email": "kibe@gmail.com",
+      "username": "kibe1",
+      "password": "1234"
+    },
+    {
+      "id": "e173",
+      "email": "larry@gmail.com",
+      "username": "kdjdj",
+      "password": "dkdkd"
+    },
+    {
+      "id": "3426",
+      "email": "gid@gmail.com",
+      "username": "gid2",
+      "password": "1234"
+    },
+    {
+      "id": "91b4",
+      "email": "larry@gmail.com",
+      "username": "Kipkemboi98",
+      "password": "1234"
+    },
+    {
+      "id": "c6f8",
+      "email": "kuku@gmail.com",
+      "username": "KUKU",
+      "password": "1234"
+    },
+    {
+      "id": "b54f",
+      "email": "keg@gmail.com",
+      "username": "keg70",
+      "password": "1234"
+    },
+    {
+      "id": "94c0",
+      "email": "koech@gmail.com",
+      "username": "koech1",
+      "password": "1234"
+    },
+    {
+      "id": "cfd0",
+      "email": "fredrick@gmail.com",
+      "username": "fred1",
+      "password": "1234"
+    }
+  ],
+  "habits": [],
+  "journals": [
+    {
+      "id": 1,
+      "user_id": "8876",
+      "habit_id": "9aa4",
+      "reflection": "managed to cover 3km",
+      "date": "2024-12-15T12:39:29.671Z"
+    },
+    {
+      "id": 2,
+      "user_id": "8876",
+      "habit_id": "6c3f",
+      "reflection": "managed 2km",
+      "date": "2024-12-16T05:50:53.042Z"
+    },
+    {
+      "id": 3,
+      "user_id": "cfd0",
+      "habit_id": "2c14",
+      "reflection": "managed to cover 4km",
+      "date": "2024-12-16T06:31:00.449Z"
+    }
+  ]
+}
