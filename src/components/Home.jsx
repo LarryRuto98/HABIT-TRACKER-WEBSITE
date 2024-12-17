@@ -1,5 +1,5 @@
 import React from 'react';
-import '/home/larry/Development/code/HABIT-TRACKER/src/components/Home.css'
+import './Home.css'
 
 
 const Home = () => {
