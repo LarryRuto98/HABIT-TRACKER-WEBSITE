@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import '/home/larry/Development/code/HABIT-TRACKER/src/components/Dashboard.css'
+import './Dashboard.css'
 
 const Dashboard = () => {
   useEffect(() => {
