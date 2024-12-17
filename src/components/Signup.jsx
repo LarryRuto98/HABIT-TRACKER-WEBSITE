@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '/home/larry/Development/code/HABIT-TRACKER/src/components/Signup.css';
+import './Signup.css';
 
 const Signup = () => {
   const [email, setEmail] = useState('');
