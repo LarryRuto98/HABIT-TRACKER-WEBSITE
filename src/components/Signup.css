@@ -8,14 +8,13 @@
   
   
   
-  .title {
+   .signup-container .title {
     font-size: 42px;
     font-weight: bold;
     color:yellow;
     margin-right: 1200px;
-    margin-bottom: 157px;
+    margin-bottom: 37px;
     font-family: 'Anton';
-
   }
   
   .white-text {
@@ -23,22 +22,29 @@
   }
   
   /* Form styles */
-  .form-header {
+   .form-header {
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     font-size: 56px;
     color: yellow;
     font-style: italic;
     font-family: 'Anton';
   }
   
+  
   .signup-form {
-    max-width: 400px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: -60px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adjust blur level */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border-radius: 20px; /* Optional: rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
   }
   
   .form-label {
@@ -69,6 +75,7 @@
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    margin-left: 130px;
   }
   
   .btn:hover {

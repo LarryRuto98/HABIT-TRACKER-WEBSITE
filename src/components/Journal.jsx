@@ -131,7 +131,7 @@ const Journal = () => {
       <h2 className="title">Habit Journaling</h2>
 
       {/* Journal Entry Form */}
-      <form onSubmit={handleAddEntry} className="form">
+      <form onSubmit={handleAddEntry} className="journal-form">
         <label>
           Select Habit:
           <select

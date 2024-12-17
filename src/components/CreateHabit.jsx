@@ -70,7 +70,7 @@ const CreateHabit = () => {
   return (
     <div className="create-habit-container">
     <h1> <span className='yellow-text'>HABIT</span> <span className='white-text'>BREAKER</span></h1>
-      <h2 className="create-habit-title">Create Habit</h2>
+      <h2 className="create-habit-title"> <span className='white-text'>Create</span> Habit</h2>
       <form onSubmit={handleSubmit} className="create-habit-form">
         {/* Habit Name */}
         <label>
@@ -82,7 +82,7 @@ const CreateHabit = () => {
             required
           />
         </label>
-        <br />
+        
 
         
 
@@ -92,8 +92,8 @@ const CreateHabit = () => {
           <select
             value={goal}
             onChange={(e) => setGoal(e.target.value)}
-            required
-          >
+            required>
+          
             <option value="">--Select Goal--</option>
             <option value="daily">Daily</option>
             <option value="weekly">Weekly</option>

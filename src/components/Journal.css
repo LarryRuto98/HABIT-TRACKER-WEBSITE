@@ -12,15 +12,30 @@
   }
   .journal-container h1{
     font-family: 'Anton';
+    margin-right: 40px;
   }
   .journal-container h2{
     margin-left: 100px;
     font-size: 2.5rem;
+    color: yellow;
+    font-style: italic;
+    font-family: 'Anton';
   }
   .habit-name {
     font-size: 16px;
     font-weight: bold;
     color: black;
+  }
+  .journal-form{
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adjust blur level */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border-radius: 20px; /* Optional: rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:40px;
+    margin:40px;
+
   }
   
   .log-btn,
@@ -54,12 +69,12 @@
   }
   .log-habit-section{
     position: relative;
-    top:-120px;
+    top:-10px;
     left:110px;
   }
   .journal-entries{
     position: relative;
-    top:-90px;
+    top:-10px;
     left:110px
   }
   .log-habit-section h3{
@@ -70,20 +85,22 @@
   .journal-entries {
     margin-top: 20px;
   }
-  .form label{
-    position: relative;
-    bottom:150px;
-    margin-right: 800px;
+  .journal-form label{
+    margin:40px;
+    gap: 20px;
+
+    
   }
   .btn-submit-btn{
-    position: relative;
-    top: -150px;
-    right:500px;
+   
     width: 40%;
-    background: green;
-    color: white;
+    background:yellow;
+    color: black;
     font-size: 20px;
+    font-weight: bold;
     border-radius: 20px;
+    margin-left: 90px;
+    margin-bottom: 0px;
   }
   
   .journal-title {

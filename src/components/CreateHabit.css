@@ -12,6 +12,7 @@ body {
 .create-habit-container{
   position: relative;
   top: -20px;
+  
 
 
 }
@@ -23,114 +24,60 @@ body {
     text-align: center;
     font-style: italic;
     font-family: 'Anton';
-    color:yellow;
     margin-top: 4px;
-    font-size: 2rem;
+    color: yellow;
+    font-size: 2.9rem;
     padding-bottom:6px;
     position: relative;
-    top:-70px
-  }
-  
-  .create-habit-form {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-height: 30px;
-    grid-template-columns: 1fr 1fr; 
-    position: relative;
-    bottom: 120px;
-    flex: 1 1 calc(50% - 20px);
-  
-  
     
+  }
+  .create-habit-title .white-text{
+    color:white;
+  }
+  .create-habit-form {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Adjust blur level */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border-radius: 20px; /* Optional: rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 500px; /* Set a maximum width */
+    margin: 0 auto; /* Center the form horizontally */
   }
   
   .create-habit-form label {
-    
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: white;
-    
-    
+    display: block; /* Ensure labels are block-level */
+    margin-bottom: 10px; /* Space between label and input */
+    font-weight: bold; /* Bold text for labels */
   }
   
   .create-habit-form input,
-  .create-habit-form select {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    margin-bottom: -4px;
+  .create-habit-form select,
+  .create-habit-form button {
+    width: 100%; /* Make inputs and buttons full width */
+    padding: 8px; /* Add padding inside inputs */
+    margin-bottom: 15px; /* Space between form fields */
+    box-sizing: border-box; /* Include padding in width */
   }
   
-  .icon-section {
+  .button-group {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 1px;
-    margin-top: -4px;
-  }
-  
-  .icon-grid {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-  }
-  
-  .icon-button {
-    border: 2px solid transparent;
-    border-radius: 50%;
-    background-color: #f0f2f5;
-    color: #000;
-    padding: 10px;
-    cursor: pointer;
-    transition: border-color 0.3s;
-  }
-  
-  .icon-button.selected {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .custom-icon-input {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .icon-preview {
-    margin-bottom: 10px;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .color-section {
-    display: flex;
-    align-items: center;
+    justify-content: space-between; /* Buttons side by side */
     gap: 10px;
   }
   
-  .color-preview {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid #ddd;
-  }
-  
-  .color-code {
-    font-weight: bold;
-  }
-  
   .image-preview {
+    display: block;
+    margin: 10px auto;
     width: 100px;
     height: 100px;
-    margin: 10px 0;
-    border-radius: 5px;
     object-fit: cover;
+    border-radius: 8px;
   }
+  
   
   .button-group {
     display: flex;
@@ -140,13 +87,14 @@ body {
   }
   
   .create-habit-btn {
-    background-color: #28a745;
-    color: #fff;
+    background-color: yellow;
+    color:black;
     padding: 10px 20px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     font-size: 1rem;
+    font-weight: bold;
     transition: background-color 0.3s;
     flex-direction: column-reverse;
   }
@@ -156,7 +104,9 @@ body {
   }
   
   .btn-secondary {
-    background-color: #007bff;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
     padding: 10px 20px;
     border-radius: 30px;
   }

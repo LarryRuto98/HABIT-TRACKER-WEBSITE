@@ -46,7 +46,7 @@ const Login = ({ onLogin }) => {
          <h1><span className="yellow-text">HABIT</span> <span className="white-text">TRACKER</span></h1>
         </header>
       <h2><span className='yellow-text'>Login To</span> <span className='white-text'>Your Account</span></h2>
-      <form onSubmit={handleLogin}>
+      <form onSubmit={handleLogin} className='login-form'>
         <label>
           Username:
           <input
