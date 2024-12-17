@@ -5,8 +5,6 @@ import './CreateHabit.css';
 
 const CreateHabit = () => {
   const [name, setName] = useState('');
-  const [icon, setIcon] = useState('');
-  const [customIcon, setCustomIcon] = useState('');
   const [goal, setGoal] = useState('');
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
@@ -14,7 +12,7 @@ const CreateHabit = () => {
   const [image, setImage] = useState(null);
   const [previewImage, setPreviewImage] = useState(null);
 
-  const predefinedIcons = ['🔥', '📚', '💪', '🌟', '🚴', '🎵', '🎨'];
+ 
   const navigate = useNavigate();
 
   const handleFileChange = (e) => {
@@ -36,13 +34,11 @@ const CreateHabit = () => {
         return;
       }
 
-      const selectedIcon = customIcon.trim() !== '' ? customIcon : icon;
       const imageUrl = image ? URL.createObjectURL(image) : '';
 
       const newHabit = {
         user_id: user.id,
         name,
-        icon: selectedIcon,
         goal,
         startDate,
         endDate,
@@ -57,7 +53,6 @@ const CreateHabit = () => {
 
       setName('');
       setIcon('');
-      setCustomIcon('');
       setGoal('');
       setStartDate('');
       setEndDate('');
@@ -89,40 +84,7 @@ const CreateHabit = () => {
         </label>
         <br />
 
-        {/* Icon Selection */}
-        <label>
-          Icon:
-          <div className="icon-section">
-            <div className="icon-grid">
-              {predefinedIcons.map((iconOption, index) => (
-                <button
-                  key={`icon-${index}-${iconOption}`}
-                  type="button"
-                  onClick={() => setIcon(iconOption)}
-                  className={`icon-button ${icon === iconOption ? 'selected' : ''}`}
-                >
-                  {iconOption}
-                </button>
-              ))}
-            </div>
-            <label className="custom-icon-label">
-              Or enter a custom icon:
-              <input
-                type="text"
-                value={customIcon}
-                onChange={(e) => setCustomIcon(e.target.value)}
-                className="custom-icon-input"
-              />
-            </label>
-          </div>
-        </label>
-        <div className="icon-preview">
-          <strong>Preview: </strong>
-          <span style={{ fontSize: '2rem' }}>
-            {customIcon || icon || 'Select an icon'}
-          </span>
-        </div>
-        <br />
+        
 
         {/* Other fields */}
         <label>
@@ -173,10 +135,10 @@ const CreateHabit = () => {
           </div>
         )}
         <div className="button-group">
-          <button type="submit" className="btn">Create Habit</button>
+          <button type="submit" className="create-habit-btn">Create Habit</button>
           <button
             type="button"
-            className="btn secondary"
+            className="btn-secondary"
             onClick={() => navigate('/Journal')}
           >
             Go to Habit Journaling
